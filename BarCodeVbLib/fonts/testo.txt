@@ -1,0 +1,4 @@
+Private brcd As New ClsBarCode
+Private BarCode128 As New Font("Code 128AB", 50)
+
+g.DrawString(brcd.DammiBarCode(mBarCode1.Trim), BarCode128, Brushes.Black, OrigineX + CSng(larghezza * 0.75), OrigineY + altezza - 18, Centrato)
