@@ -14,7 +14,7 @@ namespace BarcodeExampleApp
 {
     class BarcodeUtils
     {
-        // pass the value to get back 
+        // pass the value for which you want to get back the encoded one
         public static string GetBarcodeEncodedValue(string value)
         {
             BarCodeLibClass bclc = new BarCodeLibClass();
